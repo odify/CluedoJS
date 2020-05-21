@@ -1,19 +1,33 @@
 body{
+    margin: 0;
     text-align: center;
     background-color: #3d3a38;
+    font-family: Fira Sans;
+    font-weight: 800;
 }
 header{
-    background-color: #f25c22;
+    font-family: Fira Sans, serif;
+    font-weight: 800;
+    background-color: #3d3a37;
     color: #fff;
-    font-size: 1em;
+}
+header>h1{
+    font-size: 3em;
+    color: #fff;
+    letter-spacing: 0.9px;
+    background-color: #F25c23;
+    text-shadow: 1px 2px 3px #3d3a38; 
 }
 button{
-    padding: 20px 25px;
+    padding: 25px 30px;
 }
 img{
-    width: 50%;
-    margin-top: 2%;
+    width: 40%;
+    height: 60%;
+    margin-top: 2.75%;
 }
 #show{
     color: #fff;
+    text-align: left;
+    margin-left: 35%;
 }

@@ -1,4 +1,4 @@
-// CluedoJS Array...
+// CluedoJS Array
 
 let roomsArray = ["Conservatory ", "Dining Room ", "Kitchen ", "Guest House ", "Patio", "Ballroom", "Library ", "Billiard Room "];
 
@@ -55,6 +55,6 @@ document.getElementById("check").addEventListener("click", () => {
 
     console.log(random3);
 
-    document.getElementById("show").innerHTML = ` Who ?: ${suspectsArray[random3].Name}<br> Where ?: ${roomsArray[random1]}<br> Weapon: ${weaponsArray[random2]} <br>` + `<img src="assets/img/${random3}.jpg" alt="">`;
+    document.getElementById("show").innerHTML = ` Who ? ${suspectsArray[random3].Name}<br> Where ? ${roomsArray[random1]}<br> Weapon ? ${weaponsArray[random2]} <br>` + `<img src="assets/img/${random3}.jpg" alt="xyz">`;
 
 })
